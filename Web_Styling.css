@@ -1,0 +1,109 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: green;
+}
+.a {
+  color: black;
+}
+div.image {
+    border: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.image {
+  background-image: url("Achievers1.jpeg");
+  background-attachment: fixed;
+  /* margin-right: 0px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body {
+  /* background-image: url("Achievers1.jpeg"); */
+  background-size: cover;
+  /* border: 1px solid black; */
+  background-repeat: no-repeat;
+  border: 5px solid #2e0101;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 2px;
+}
+iframe {
+  border: 5px solid black;
+}
+/* img {
+  background-size: auto 100%;
+  width: 100%;
+} */
+nav a {
+  /* text-decoration: none;
+    color: #080000;
+    text-align: center;
+    padding: 20px;
+    float:left; */
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  float: left;
+}
+nav {
+    position: fixed;
+    top: 6px;
+  /* margin-right: 20px; */
+  padding: 5px;
+  left: 9.4px;
+  /* right: 1px; */
+  background-color: rgb(165, 42, 42);
+  border: 2px solid black;
+  overflow: hidden;
+  text-align: center;
+  display: inline-block;
+  /* width: 98.6%; */
+  width: 97.9%;
+}
+nav a:hover {
+  color: #a50ca5;
+}
+h1 {
+  text-align: center;
+}
+h1.a {
+  text-align: center;
+  color: rgb(135, 9, 167);
+}
+h2.notes {
+  background-image: url("books.jpg");
+  border: 5px solid #8d8b1c;
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 30%;
+  height: 100%;
+  text-align: center;
+  background-size: cover;
+  display: block;
+  align-items: center;
+}
+h2.pyq {
+    background-image: url("jee.png");
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid #8d8b1c;
+    padding: 10px;
+    background-position: right;
+    text-align: center;
+    display: block;
+    align-items: center;
+    height: 100%;
+}
+.jeenotes {
+    background-position: bottom left;
+}
+.jeenotes-1 {
+    background-position: bottom right;
+}
+.study {
+  color: #aa590e;
+}
